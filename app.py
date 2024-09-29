@@ -57,7 +57,6 @@ def chatbot():
             else:
                 print("Something went wrong. Please try again.")
     else:
-        #test
         print("Failed to read the file content.")
 
 if __name__ == "__main__":
