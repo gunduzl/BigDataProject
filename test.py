@@ -51,7 +51,7 @@ conversation = ConversationalRetrievalChain.from_llm(
     # Removed input_key and output_key
 )
 
-st.title('f{file_name} Dosya Asistanı')
+st.title(f'{file_name} Dosya Asistanı')
 
 # Retrieve existing messages
 messages = message_history.messages if message_history.messages else []
